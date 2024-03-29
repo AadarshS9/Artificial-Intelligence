@@ -23,5 +23,5 @@ on. So as to recollect the nodes to be visited. BFS uses a queue. It begins at t
 - Step 6: Stop.
 
 # Solution
-- hangman.py
-- hangman.png
+- bfs.py
+- bfs.png
