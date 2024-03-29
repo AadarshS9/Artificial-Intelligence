@@ -29,6 +29,6 @@ The extension here is that, instead of using a priority queue to store all the e
 - Step 4: Stop.
 
   # Solution
-  - a*.py
-  - a*.png
+  - a.py
+  - a.png
   
