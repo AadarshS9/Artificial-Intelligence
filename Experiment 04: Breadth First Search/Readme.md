@@ -1,5 +1,5 @@
 # Aim
-Write a python program to implement Breadth First Search.
+Write a Python program to implement Breadth First Search.
 
 # Theoretical Background
 Breadth First Search is an algorithm used for traversing graphs or trees. Traversing means visiting each node of the graph. Breadth First Search is a recursive algorithm to search all the vertices of a graph or a tree. BFS in
@@ -21,3 +21,7 @@ on. So as to recollect the nodes to be visited. BFS uses a queue. It begins at t
    - Step 4.4: Continue from Step 4.2 to Step 4.3, until the queue is empty.
 - Step 5: Display the front item of the queue as each time it is popped out.
 - Step 6: Stop.
+
+# Solution
+- hangman.py
+- hangman.png
