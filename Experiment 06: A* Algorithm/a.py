@@ -18,16 +18,13 @@ class Graph:
     # heuristic function with equal values for all nodes
     def h(self, n):
         H = {
-            'S': 11.5,
-            'A': 10.1,
-            'B': 5.8,
-            'C': 3.4,
-            'D': 9.2,
-            'E': 7.1,
-            'F': 3.5,
+            'A': 11,
+            'B': 6,
+            'C': 99,
+            'D': 1,
+            'E': 7,
             'G': 0
         }
-
         return H[n]
 
     def a_star_algorithm(self, start_node, stop_node):
@@ -104,16 +101,14 @@ class Graph:
 
         print('Path does not exist!')
         return None
-    
+
 adjacency_list = {
-    'S' : [('A',3),('D',4)],
-    'A': [('B', 4), ('D', 5),('S',3)],
-    'B': [('C', 4), ('E', 5),('A',4)],
-    'C': [('B',4)],
-    'D': [('E', 2),('S',4),('A',5)],
-    'E': [('D', 2),('F',4),('B',5)],
-    'F': [('E',4),('G',3.5)],
-    'G': [('F',3.5)]
+   'A' : [('B', 2), ('E', 3)],
+   'B' : [('A', 2), ('C', 1), ('G', 9)],
+   'C' : [('B', 1)],
+   'D' : [('E', 6), ('G', 1)],
+   'E' : [('A', 3), ('D', 6)],
+   'G' : [('B', 9), ('D', 1)],
 }
 graph1 = Graph(adjacency_list)
-graph1.a_star_algorithm('S', 'G')
+graph1.a_star_algorithm('A', 'G')
