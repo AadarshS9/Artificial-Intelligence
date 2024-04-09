@@ -1,8 +1,7 @@
 #Q8)Min-Max Algorithm with Alpha Beta Pruning
 MAX, MIN = 1000, -1000
  
-def minimax(depth, nodeIndex, maximizingPlayer, 
-            values, alpha, beta): 
+def minimax(depth, nodeIndex, maximizingPlayer, values, alpha, beta): 
   
     # Terminating condition. i.e leaf node is reached 
     if depth == 3: 
