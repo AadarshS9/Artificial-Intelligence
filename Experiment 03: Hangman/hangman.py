@@ -30,5 +30,5 @@ def guess_word(word):
 words = ["rajagiri", "school", "of", "engineering", "and", "technology"] 
 selected_word = random.choice(words)
 name=input("Kindly enter your name: ")
-print("\nNOTE! You have a maximum of 7 chances to guess the word")
+print("\nNOTE! You have a maximum of 7 lives to guess the word")
 guess_word(selected_word)
